@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'Matisse-EB';
-	src: url('https://cdn.jsdelivr.net/gh/Amatrue/tpyrcne_LN@b9fafcc70496d928af78be2af5f4bdfa9566326e/EVA-Matisse_Standard.woff') format('woff');
+	font-family: 'WN';
+	src: url('https://cdn.jsdelivr.net/gh/Amatrue/tpyrcne_LN@7106459d5473f0ea2277a17397d8a3c2b8d3c532/warning.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -8,7 +8,7 @@
 /* 容器样式 */
 
 section.warning {
-	font-family: 'Matisse-EB', sans-serif;
+	font-family: 'WN', sans-serif;
 	/* 使用加载的字体 */
 	background-color: black;
 	color: white;
