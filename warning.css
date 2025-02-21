@@ -47,35 +47,3 @@ section.warning {
 		transform: translateX(-50%);
 	}
 }
-/* "芙莉莲、袭来" 样式 */
-
-.vertical-horizontal-container {
-	display: flex;
-	align-items: flex-start;
-	/* 确保竖排的文字从顶部开始 */
-	justify-content: center;
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-.vertical-text {
-	writing-mode: vertical-rl;
-	/* 竖排书写 */
-	margin-right: 10px;
-	/* 控制竖排字间距 */
-	font-size: 48px;
-	/* 字体大小可以调整 */
-}
-.horizontal-text {
-	font-size: 48px;
-	/* 横排文字大小 */
-	display: inline-block;
-	margin-top: 82px;
-	/* 调整使其向下移动一行 */
-	vertical-align: top;
-	/* 使横排文字与竖排文字的“莲”字对齐 */
-}
-.horizontal-text span {
-	margin-right: -30px;
-	/* 缩小“、”和“袭来”之间的间距 */
-	margin-left: -20px;
-}
